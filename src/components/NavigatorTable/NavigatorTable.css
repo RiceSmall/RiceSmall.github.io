@@ -1,0 +1,40 @@
+
+.nav{
+	overflow: hidden;
+	height: 1.2rem;
+	padding-top: 45px;
+	background: #2C374D;
+}
+
+.navwp{
+	height: 1.2rem;
+	overflow-x:auto;
+	padding-bottom: .2rem;
+	display:-webkit-box;
+	-webkit-box-pack:justify;
+	color:#9AB0DC;
+}
+
+.navwp>span{
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	text-align: center;
+	font-size: .2rem;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+  width: 1rem;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.navwp>span>img{
+	display:block;
+	width: .7rem;
+	height: .7rem;
+}
+
+.navwp>span>span{
+	display: block;
+	height: .3rem;
+	overflow: hidden;
+}

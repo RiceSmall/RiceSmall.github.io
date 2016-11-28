@@ -1,0 +1,73 @@
+
+	.banner{height: 2.6rem;  min-width: 5rem; background-image: url("../../../../img/bg_football.png"); background-size: contain; display: -webkit-box; box-orient:horizontal;-webkit-box-orient:horizontal; box-pack:center;-webkit-box-pack:center; padding-left: .7rem;padding-right: .7rem;color:#BECFF1;position: absolute; top: 0;left: 0; overflow: hidden;}
+	.banner-dif{  min-width: 5.6rem; padding-left: .4rem;padding-right: .4rem; overflow: hidden; }
+	.scroll-per,.scroll-next{height: .35rem;width: .35rem; position: absolute;top: .2rem;  background-color: rgba(0,0,0,0.25);  border:1px solid #424548;line-height: .35rem ;-webkit-transform: rotate(-90deg);-webkit-transform:rotate(-90deg);color: #9D9EA0;
+	 	border-top-left-radius: .33rem; /* 左上角 */
+    border-top-right-radius:.33rem; /* 右上角 */
+    border-bottom-right-radius:.33rem; /* 右下角 */
+    border-bottom-left-radius:.33rem; /* 左下角 */
+    border-radius:.33rem;
+    background-clip: padding-box;
+    } 
+	.scroll-per{left: .2rem}
+	.next-dif{-webkit-transform: rotate(90deg);-webkit-transform:rotate(90deg);right: .2rem}
+	.team-name{height: 1.29rem;width: .7rem;margin-left: 0rem;}
+	.team-dif{height: .99rem;margin-top: .37rem;}
+	.host,.guest{height: .36rem;width: .7rem;font-size: .22rem;color: #FFFFFF;line-height:.36rem;background-color: #E14B4B;-webkit-transform: skew(-15deg);display: block;}
+	.guest{background-color: #3574C9}
+	.event{height:1.36rem;width: .74rem;font-size: .24rem;position: relative;} 
+	.events>div{ display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:justify;-webkit-box-align:center;}
+	.events-dif>div{margin-left: .15rem;}
+	.progess{height: .12rem;width: .12rem; top: .54rem;left: .25rem;background-color: #FFFFFF;border:3px solid #5F84DF;
+		position: absolute;
+    border-top-left-radius: .12rem; /* 左上角 */
+    border-top-right-radius:.12rem; /* 右上角 */
+    border-bottom-right-radius:.12rem; /* 右下角 */
+    border-bottom-left-radius:.12rem; /* 左下角 */
+    border-radius:.12rem;
+    background-clip: padding-box;}
+	.section-num{height: .24rem;font-size: .20rem;width: .72rem; }
+	.score-h,.score-g{display: block;font-size: .24rem;color: #FFFFFF;}
+
+	.off-up{background: #D33F3C;}
+	.conduct{background: #1F9767;}
+	.active-flag{position: relative;}
+	
+	.f-balling{ height: 1.29rem;min-width: 5.63rem; margin-top: .77rem; position: relative;display: -webkit-box; box-orient:horizontal;box-pack:start;}
+	.point-time{height: .36rem;width: .74rem;color: #BECFF1;font-size: .24rem;line-height: .36rem;}
+	.total-bar{height: .05rem;min-width: 5.63rem;top:.63rem;left: -.01rem;background-color: rgba(255, 251, 240,.3);position: absolute;}
+	.bar{height: .05rem;width: 0rem;top:.63rem;left: -.01rem;background-color: #5F84DF;position: absolute; }
+	.state{display:block;width:.32rem;height:.35rem;background-image:url('../../../../img/status.png');background-repeat:no-repeat;-webkit-background-size:100% 1300%;}
+	.free-kick{background-position:0 0;}
+	.goal{background-position:0 10%;}
+	.yellow-card{background-position:0 20%;}
+	.substitution{background-position:0 30%;}
+	.red-card{background-position:0 40%;}
+	.penalty{background-position:0 50%;}
+	.own{background-position:0 60%;}
+	.Two-yellow-penalty{background-position:0 70%;}
+	.finish{background-position:0 80%;}
+	.half-time{background-position:0 90%;}
+	.begin{background-position:0 100%;}
+	.i-active{-webkit-transform: rotate(90deg); margin-bottom: .3rem}
+	.switch-active{opacity: .5}
+	.overDiv{
+		height:2.6rem;
+		width:6.4rem;
+		overflow:hidden;
+		position: absolute;
+		top:0;
+		left:0
+	}
+	.scrollB{
+		height: 1rem;
+    width: 1rem;
+    margin-top: -.6rem;
+    margin-left: -.2rem;
+    display: block;
+  }
+
+
+
+
+

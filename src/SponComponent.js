@@ -1,0 +1,1 @@
+import SponsorDetail from './containers/SponsorDetail'

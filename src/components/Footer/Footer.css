@@ -1,0 +1,15 @@
+.footer{display: -webkit-box;-webkit-box-pack:justify;background: #293347;position: fixed;
+    width: 6.4rem;height: .98rem;z-index: 9;bottom: 0;color:#fff;padding: 0 .2rem;color:#bfcff1;
+    box-sizing: border-box;-webkit-box-align:center;}
+.footer>img{width:.93rem;height:.37rem;}
+.mymoney{width: 3rem;height: .36rem;background-color: #252E40;border: .02rem solid #2E3A50
+;border-radius: .18rem;line-height: .36rem;position: relative;font-size: .22rem;z-index: 1;}
+.mymoney .fishballicon{position: absolute;left: -.1rem;top: -.05rem;width:.48rem;height:.48rem;z-index: 80;background: url("../../img/icon.png") no-repeat 0rem -.5rem;-webkit-background-size: 3.67rem 3.21rem;}
+.addmoney{position: absolute;right: -.4rem;top: 50%;width: .42rem;height: .42rem; background: url("../../img/icon.png") no-repeat -.86rem -1.08rem;-webkit-transform: translateY(-100%);
+    -webkit-background-size: 3.67rem 3.21rem;margin:.2rem;z-index: 80;}
+.mymoney p{padding-left: .46rem;}
+.mymoney p .balance{display: inline-block;width: 1rem;overflow: hidden;vertical-align: top;}
+.footer>a{display: inline-block;}
+.order{font-size: .22rem;line-height: .36rem;}
+
+.ordernum{padding-bottom: .06rem;display: inline-block;min-width:.28rem;height: .28rem;background: #4569bf;color:#fff;padding-left: .06rem;border-bottom-right-radius: .2rem;border-top-right-radius: .2rem;border-bottom-left-radius: .2rem;padding-right: .06rem;border-top-left-radius: .2rem;text-align: center;margin-left: .06rem;-webkit-transform: scale(.8);padding-top: .06rem;line-height: .28rem;}

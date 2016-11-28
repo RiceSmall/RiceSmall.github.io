@@ -1,0 +1,309 @@
+
+	.banner{height: 3.6rem;  min-width: 5rem; background-size: contain; display: -webkit-box; box-orient:horizontal;-webkit-box-orient:horizontal; box-pack:center;-webkit-box-pack:center; padding-left: .7rem;padding-right: .7rem;color:#BECFF1;position: absolute; top: 0;left: 0;
+		/* -webkit-transform-style: preserve-3d;
+		    	transform-style: preserve-3d; */
+    }
+	.guess-show{ color: #9AB0DC;background-color: #232C3D;position: relative; overflow: hidden;}
+	.hw:after{content: "";display: block;height: 3.6rem;}
+	.none-ol{overflow:visible!important;}
+	.scription{
+		position: absolute;
+		bottom: .15rem;
+		left:.7rem;
+		font-size: .2rem;
+		width: 5rem;
+
+	}
+
+.banner .banner-img{
+		border: none;
+		height: 3.6rem;
+		width: 6.4rem;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:200;
+		background: url('../../img/2.png');
+		background-size: contain;
+		-webkit-transform:translate(0px,0px) scale(0);
+		transform:translate(0px,0px) scale(0);
+		opacity: 0;
+
+}
+.banner .banner-img:nth-child(2){
+	background: url('../../img/3.png');
+	background-size: contain;
+}
+.banner .banner-img:nth-child(3){
+	background: url('../../img/4.png');
+	background-size: contain;
+}
+.img-flag{
+		border: none;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:0;
+		opacity: 1;
+}
+.success div:nth-child(1),.error div:nth-child(1){
+	-webkit-animation: startAnimations 1s cubic-bezier(0.42, 0, 1, 0.47)  forwards;
+	animation: startAnimations 1s cubic-bezier(0.42, 0, 1, 0.47) forwards;
+}
+.success div:nth-child(2){
+	-webkit-animation:animations .6s ease-in-out 1.3s forwards;
+	animation: animations .6s ease-in-out 1.3s forwards;
+}
+.error div:nth-child(3){
+	-webkit-animation:animations .6s ease-in-out 1.3s forwards;
+	animation: animations .6s ease-in-out 1.3s forwards;
+}  
+
+
+@-webkit-keyframes startAnimations{
+	0%{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	}
+	
+	50%{
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+	opacity: .5;
+	}
+	
+	100%{
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+@keyframes startAnimations{
+	0%{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+		
+	50%{
+		-webkit-transform: scale(1.8);
+		transform: scale(1.8);
+		opacity: .5;
+	}
+		
+	100%{
+		z-index: 200;
+		-webkit-transform:translate(0px,0px) scale(.2);
+		transform:translate(0px,0px) scale(.2);
+		opacity: 0;
+	}
+}
+@keyframes animations{
+	0%{
+	z-index: 200;
+	-webkit-transform:(0px,0px) scale(0);
+	transform:(0px,0px) scale(0);
+	opacity: 0;
+	}
+		
+	100%{
+		z-index: 200;
+		-webkit-transform:translate(0px,0px) scale(1);
+		transform:translate(0px,0px) scale(1);
+		opacity: 1;
+	}
+	}
+@-webkit-keyframes animations{
+	0%{
+		z-index: 200;
+		-webkit-transform:(0px,0px) scale(0);
+		transform:(0px,0px) scale(0);
+		opacity: 0;
+	}
+		
+	100%{
+		z-index: 200;
+		-webkit-transform:translate(0px,0px) scale(1);
+		transform:translate(0px,0px) scale(1);
+		opacity: 1;
+
+	}
+}
+.bet-btn{
+		height: .6rem;
+    width: 2rem;
+    display: block;
+    border-radius: .2rem;
+    line-height: .6rem;
+    position: absolute;
+    left: 2.2rem;
+    top: 2.6rem;
+    z-index: 300;
+    -webkit-transform:translate(0px,0px);
+		transform:translate(0px,0px);
+}
+
+.shooter{
+	background: url('../../img/02.png');
+	background-size: contain;
+	height: 2.4rem;
+  width: 1rem;
+  z-index: 199;
+  transform: translate(3.8rem,1.1rem);
+  -webkit-transform: translate(3.8rem,1.1rem);
+}
+.ball{
+		background: url('../../img/03.png');
+		background-size: contain;
+	  height: .45rem;
+    width: .45rem;
+    z-index: 2;
+    -webkit-transform:translate(4.38rem,3.08rem);
+    transform: translate(4.38rem,3.08rem);
+}
+.goalkeeper{
+	background: url('../../img/04.png');
+	background-size: contain;
+	height: 2rem;
+	width: 1.5rem;
+	z-index: 10;
+  transform: translate(2.45rem,.45rem);
+  -webkit-transform:translate(2.45rem,.45rem);
+}
+
+.bg-img{
+	background: url('../../img/05.png');
+	background-size: contain;
+	height: 3.6rem;
+	width: 6.4rem;
+	z-index: 0;
+	transform: translate(0px,0px) ;
+}
+.success-right div:nth-child(5),.error-right div:nth-child(5){
+	-webkit-animation:ballPalayRight .3s ease 1s forwards;
+	animation: ballPalayRight .3s ease 1s forwards;
+			
+	} 
+.success-right div:nth-child(6),.error-right div:nth-child(6){
+ 	-webkit-animation:goalkeeperPalayRight .3s ease 1s forwards;
+	animation: goalkeeperPalayRight .3s ease 1s forwards;		
+	} 
+
+.success-left div:nth-child(5),.error-left div:nth-child(5){
+	-webkit-animation:ballPalayLeft .3s cubic-bezier(0.07, -0.26, 1, -0.13)  1s forwards;
+	animation: ballPalayLeft .3s cubic-bezier(0.07, -0.26, 1, -0.13)  1s forwards;	
+	} 
+.success-left div:nth-child(6),.error-left div:nth-child(6){
+ 	-webkit-animation:goalkeeperPalayLeft .3s cubic-bezier(0.07, -0.26, 1, -0.13)  1s forwards;
+	animation: goalkeeperPalayLeft .3s cubic-bezier(0.07, -0.26, 1, -0.13)  1s forwards;	
+	}
+.success-center div:nth-child(5),.error-center div:nth-child(5){
+	-webkit-animation:ballPalayCenter .3s ease 1s forwards;
+	animation: ballPalayCenter .3s ease 1s forwards;
+			
+	} 
+.success-center div:nth-child(6),.error-center div:nth-child(6){
+ 	-webkit-animation:goalkeeperPalayCenter .3s ease 1s forwards;
+	animation: goalkeeperPalayCenter .3s ease 1s forwards;
+			
+	} 
+
+@keyframes ballPalayRight{
+	100%{
+	z-index: 140;
+	transform: translate(5rem,.89rem) rotate(120deg) ;
+	-webkit-transform: translate(5rem,.89rem) rotate(120deg) ;
+	}
+}
+
+@-webkit-keyframes ballPalayRight{
+	100%{
+	z-index: 140;
+	transform: translate(5rem,.89rem) rotate(120deg);
+	-webkit-transform: translate(5rem,.89rem) rotate(120deg);
+	}
+}
+
+@keyframes goalkeeperPalayRight{
+	100%{
+	z-index: 40;
+	-webkit-transform:  translate(4.8rem,.45rem);
+	transform:  translate(4.8rem,.45rem);
+	}
+}
+
+@-webkit-keyframes goalkeeperPalayRight{
+	100%{
+	z-index: 40;
+	-webkit-transform: translate(4.8rem,.45rem);
+	transform:  translate(4.8rem,.45rem);
+	}
+}
+
+
+@keyframes ballPalayLeft{
+	100%{
+		z-index: 40;
+		-webkit-transform:translate(1.8rem,1.3rem) rotate(120deg);
+	   transform: translate(1.8rem,1.3rem) rotate(120deg);
+	}
+}
+
+@-webkit-keyframes ballPalayLeft{
+	100%{
+		z-index: 40;
+		-webkit-transform:translate(1.8rem,1.3rem) rotate(120deg);
+	   transform: translate(1.8rem,1.3rem) rotate(120deg);
+	}
+}
+
+@keyframes goalkeeperPalayLeft{
+	100%{
+			z-index: 9;
+			-webkit-transform:translate(1.5rem,.45rem);
+	    transform: translate(1.5rem,.45rem);
+	}
+}
+
+@-webkit-keyframes goalkeeperPalayLeft{
+	100%{
+			z-index: 9;
+			-webkit-transform:translate(1.5rem,.45rem);
+	    transform: translate(1.5rem,.45rem);
+	}
+}
+
+@keyframes ballPalayCenter{
+	100%{
+		z-index: 40;
+		-webkit-transform:translate(3rem,.89rem) rotate(120deg);
+	  transform: translate(3rem,.89rem) rotate(120deg);
+	}
+}
+
+@-webkit-keyframes ballPalayCenter{
+	100%{
+		z-index: 40;
+		-webkit-transform:translate(3rem,.89rem) rotate(120deg);
+	   transform: translate(3rem,.89rem) rotate(120deg);
+	}
+}
+@keyframes goalkeeperPalayCenter{
+	100%{
+			z-index: 1;
+			-webkit-transform:translate(2.45rem,.45rem);
+	    transform: translate(2.45rem,.45rem);
+	}
+}
+
+@-webkit-keyframes goalkeeperPalayCenter{
+	100%{
+			z-index: 1;
+			-webkit-transform:translate(2.45rem,.45rem);
+	    transform: translate(2.45rem,.45rem);
+	}
+}
+
+	
+

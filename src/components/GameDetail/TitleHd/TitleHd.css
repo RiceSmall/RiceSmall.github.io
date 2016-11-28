@@ -1,0 +1,3 @@
+	.tli-hd{min-height:.72rem;width:6.4rem;color: #88A0CE; font-size:.28rem;line-height:.72rem;background-color: #2C374D;position: relative;padding-top: .9rem; overflow : hidden; text-overflow: ellipsis; display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+	.b-ball{ height:.23rem;width:.49rem;position: absolute;top:.24rem;right: .2rem;  font-size: .17rem;color: #32ac79;border: 1px solid currentColor;line-height:.23rem; }
+	.header{height:.89rem;}

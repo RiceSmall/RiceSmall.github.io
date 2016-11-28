@@ -1,0 +1,106 @@
+
+.dn{display:none!important;}
+.f8{font-size:.16rem}.f20{font-size:.4rem}
+.pl24{padding-left:.24rem}
+
+.gf{color:#fff}.gbe{color:#BECFF1}.g2f{color:#2F4C96}
+/* 文字颜色：由浅至深 #fff > #BECFF1  */
+.b38{background:#385395}.b42{background:#425FA7}.bf{background:#F5F5F5}.bgreen{background:#2BBD73} .bred{background:#EC4444}
+/* 背景颜色：由深至浅 #fff > #BECFF1  */
+.pf{position:fixed;width:100%}
+
+
+
+.bound{padding:0 .1rem;}
+.boundgoal{background: url(../../img/goal.png) no-repeat 0 .3rem;background-size: 100% auto;width: 100%;height: 2.6rem;margin-bottom: .7rem;position: relative;}
+.boundgoal .items{
+	width: .7rem;height: .7rem;border-radius: .4rem;line-height: .7rem;border: .02rem solid #333f55; box-sizing: border-box;margin:0;position: absolute;font-size: .24rem;
+}
+.boundgoal .items:nth-child(1){
+	top:.72rem;
+	left: 1.1rem;
+}
+
+.boundgoal .items:nth-child(2){
+	top: 1.6rem;
+	left: 1.1rem;
+}
+.boundgoal .items:nth-child(5){
+	top: 1.6rem;
+	right: 1.1rem;
+}
+.boundgoal .items:nth-child(3){
+	top: 1.17rem;
+	left: 2.8rem;
+}
+.boundgoal .items:nth-child(4){
+	top:.72rem;
+	right: 1.1rem;
+}
+.totalBd .tiplft{text-align: left;margin:.06rem 0 .24rem;}
+
+.boundgoal .tip{margin:.2rem;font-size:.2rem;color:#50668f;text-align:center;position: relative;top: 2.7rem;}
+
+.bound i{font-size: .28rem;-webkit-transform: translateY(.01rem);display: inline-block;position: relative;}
+
+.tipwarning>i{margin-right: .1rem;}
+.setpwd .tipwarning>i{margin-right: 0;}
+.bound .tipwarning{color: #ac4e4e;}
+.betCon{padding:.16rem 0 .16rem .3rem;display:-webkit-box;-webkit-box-pack:justify;background:#283347;border-bottom: 1px solid #2C374D;}
+.bet{font-size:.28rem;color:#88A0CE;padding-left:.1rem;border-left:solid .04rem #9ab0dc;line-height:.28rem}
+.num{display:inline-block;width:.8rem;line-height:.8rem;border:solid .05rem #4768A9;padding:.05rem;background-clip:content-box;border-radius:50%;text-align:center;color:#4F6DB8;font-size:.4rem;margin:0 .2rem}
+.num.act{color:#f5f5f5;background-color:#ED4B4B;border-color:#ED4B4B}
+.confirm{display: block;width:5.8rem;line-height:.82rem;font-size:.34rem;color:#fff;background:#4768A9;margin:.3rem auto .4rem;border-radius:.1rem;text-align:center;}
+.resultBtn{margin-top:.06rem;background:url('../../img/btn.png') 0 78% no-repeat;-webkit-background-size:122% 580%;}
+.items,.items3,.itemsTxt{vertical-align: top;height:.9rem;width:2.8rem;border-radius:.1rem;background-color:#2C374D;display:inline-block;color:#BECFF1;margin-left:.2rem;text-align:center;margin-top:.2rem;font-size:.28rem;line-height:.9rem;border: .02rem solid #333f55;box-sizing:border-box;}
+.items.act,.items3.act,.itemsTxt.act,.itemInput.act{background:#4768A9;color: #fefffd;border: .02rem solid #5074cd;box-sizing:border-box;}
+.txt.tac,.txt.tact{color: #fefffd;}
+.other-btn.otherdiy{height: .6rem;}
+.items3{width:1.8rem}
+.itemsTxt{line-height:.64rem}
+.txt{font-size:.2rem;line-height:.02rem;display:block;color: #52658f;}
+.password{width:5.8rem;height:.5rem;line-height:.5rem;font-size:.5rem;border:none;text-align:center;-webkit-appearance:none;padding:.2rem 0;display:block;background-color:#2C374D;margin:.2rem auto .1rem;border-radius:.1rem;color:#51668f;border: .02rem solid #333f55;}
+.tip{margin:.2rem;font-size:.2rem;color:#50668f;text-align:center;}
+.pay{padding:.3rem 0 0 .3rem;}
+.pay p{color:#BECFF1;font-size:.28rem}
+.totalBd{font-size:.28rem;color:#51668F;line-height:1;margin:.3rem 0 0 .2rem}
+.totalBd>li{margin-top:.04rem;line-height:1.6}
+.totalBd>li>span:last-child{color:#BECFF1}
+
+.fold {
+	-webkit-transform: rotateZ(0deg);
+	-webkit-transition-duration: .2s;
+}
+
+.mt40{margin-top:.2rem}
+.pt180{padding-top:.9rem}
+
+.active{-webkit-transform: rotateZ(-180deg);-webkit-transition-duration:.2s;}
+.iarrow{display:block;font-size:.24rem;color:#51668F;line-height:.3rem;margin-right:.3rem}
+
+.other-btn{
+  display: inline-block;
+  text-indent:-.135rem;
+  height: .7rem;
+  width: 1.7rem;
+  border: none;
+	text-align: center;
+	color: #BECFF1;
+	background-color: transparent;
+}
+.gap input{
+	color: #BECFF1
+}
+ input::-webkit-input-placeholder {
+/* 	 color: #52658f !important;  */
+	 font-size: .2rem; 
+	 text-align: .7rem!important ;
+}
+.hiddentInp{
+	height: .01rem;
+  width: .01rem;
+  background-color: transparent;
+  border: none;
+}
+.blurinput{position: absolute;width: 0px;height: 0px;overflow: hidden;left: -9999;top: -9999;}
+

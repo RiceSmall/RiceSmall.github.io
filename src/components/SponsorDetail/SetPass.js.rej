@@ -1,0 +1,10 @@
+diff a/h5-api-web/src/main/resources/templates/app/game/v44/react/src/components/SponsorDetail/SetPass.js b/h5-api-web/src/main/resources/templates/app/game/v44/react/src/components/SponsorDetail/SetPass.js	(rejected hunks)
+@@ -32,7 +32,7 @@
+       this.props.checkPass(0,'')
+     }else{
+       this.props.checkPass(penaltyType,'');
+-      if(penaltyType==1){
++      if(penaltyType==2){
+         password.className = styles.password;
+         password.focus()
+       }else {

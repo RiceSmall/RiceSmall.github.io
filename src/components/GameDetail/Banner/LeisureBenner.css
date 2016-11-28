@@ -1,0 +1,6 @@
+	.now-foreshow{padding: 0;}
+	.wt{height: 2.57rem;color: #fff;background-color: #2C374D;
+	box-sizing: border-box;width: 100%;position: relative; font-size: .29rem;vertical-align: middle;}
+	.wt>span{ background:#222222;opacity: 0.6;font-size: .22rem; border-radius: .04rem;padding: 0 .1rem;position: absolute;right: .2rem;bottom: .13rem;}
+	.headline{padding:.1rem .27rem;background: #2C374D;}
+	.headline a{line-height: .44rem;font-size: .28rem;color: #BECFF1;}

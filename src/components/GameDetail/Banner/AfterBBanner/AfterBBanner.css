@@ -1,0 +1,40 @@
+
+	.banner{height: 2.6rem;  min-width: 5rem; background-image: url("../../../../img/bg_basketba.png"); background-size: contain; display: -webkit-box; box-orient:horizontal;-webkit-box-orient:horizontal; box-pack:center;-webkit-box-pack:center; padding-left: .7rem;padding-right: .7rem;color:#BECFF1;position: absolute; top: 0;left: 0; overflow: hidden;}
+	.banner-dif{ overflow: hidden; min-width: 5.6rem; padding-left: .4rem;padding-right: .4rem;  }
+	.b-balling div:nth-of-type(1){margin-left: 0rem;}
+	.b-balling{height: 1.36rem;min-width: 5.6rem;margin-top: .65rem;position: relative;display: -webkit-box; box-orient:horizontal;box-pack:start; }
+	.scroll-per,.scroll-next{height: .35rem;width: .35rem; position: absolute;top: .2rem; border-radius: .35rem;webkit-border-radius:.35rem; background-color: rgba(0,0,0,0.5);  border:1px solid #424548;line-height: .35rem ;transform: rotate(-90deg);-webkit-transform:rotate(-90deg);color: #9D9EA0 ;}
+	.scroll-per{left: .2rem}
+	.next-dif{transform: rotate(90deg);-webkit-transform:rotate(90deg);right: .2rem}
+	.team-name{height: 1.29rem;width: .7rem;margin-left: 0rem;}
+	.team-dif{height: .99rem;margin-top: .37rem;}
+	.host,.guest{height: .36rem;width: .7rem;font-size: .22rem;color: #FFFFFF;line-height:.36rem;background-color: #E14B4B;transform: skew(-15deg);display: block;}
+	.guest{background-color: #3574C9}
+	.event{height:1.36rem;width: .74rem;font-size: .24rem;position: relative;} 
+	.events>div{ display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:justify;-webkit-box-align:center;}
+	.events-dif>div{margin-left: .15rem;}
+	.progess{height: .12rem;width: .12rem; top: .54rem;left: .25rem;background-color: #FFFFFF;border:3px solid #5F84DF;border-radius: 50%;-webkit-border-radius:50%;position: absolute;}
+	.section-num{height: .24rem;font-size: .18rem;width: .72rem; }
+	.score-h,.score-g{display: block;font-size: .24rem;color: #FFFFFF;}
+	.point-time{height: .36rem;width: .74rem;color: #BECFF1;font-size: .24rem;line-height: .36rem;}
+	
+	.i-active{-webkit-transform: rotate(90deg); margin-bottom: .3rem}
+	.switch-active{opacity: .5}
+	.overDiv{
+		height:2.6rem;
+		width:6.4rem;
+		overflow:hidden;
+		position: absolute;
+		top:0;
+		left:0
+	}
+	.scrollB{
+		height: 1rem;
+    width: 1rem;
+    margin-top: -.6rem;
+    margin-left: -.3rem;
+    display: block;
+  }
+
+	
+

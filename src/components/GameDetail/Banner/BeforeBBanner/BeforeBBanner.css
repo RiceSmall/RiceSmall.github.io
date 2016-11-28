@@ -1,0 +1,26 @@
+
+	.pl40{padding-left: .4rem;}
+	.mt46{margin-top: .46rem;}
+	.pt{padding-bottom: .2rem;}
+	.banner{height: 2.6rem;  min-width: 5rem; background-image: url("../../../../img/bg_football.png"); background-size: cover; display: -webkit-box; box-orient:horizontal;-webkit-box-orient:horizontal; box-pack:center;-webkit-box-pack:center; padding-left: .7rem;padding-right: .7rem;color:#BECFF1;position: absolute; top: 0;left: 0; }
+	.inner-left,.inner-center,.inner-right{height:2rem;width: 1.1rem; margin-top: .6rem;}
+	.inner-center{width: 2.8rem;}
+	.host-img,.guest-img{height: 1.1rem;width: 1.1rem; margin:auto;display:block;}
+	.host-name,.guest-name{height: .7rem; font-size: .24rem;}
+	.timeing,.score{height: .4rem;font-size: .2rem; line-height: .4rem;display:block;}
+	.score{font-size: .4rem;color:#FFFFFF;}
+	.match-flag{ line-height: .32rem; border-radius: .25rem;-webkit-border-radius:.25rem;color: #FFFFFF; background-color: #273145;font-size: .2rem;padding:0 .15rem;display:inline-block;margin-top:.28rem;}
+	.match-number{height: .43rem;padding-top: .2rem;}
+	.mb2{margin-bottom: .2rem}
+	.switch-next,.switch-per{height: .3rem;color: #FFFFFF; width: .3rem;position: absolute;bottom: .0rem;text-align: center;line-height: 0rem;font-size: .2rem;}
+	.switch-next{left: 3.205rem;}
+	.switch-per{left: 2.9rem}
+	.off-up{background: #D33F3C;}
+	.conduct{background: #1F9767;}
+	.active-flag{position: relative;}
+
+	.basket{  background-image: url("../../../../img/bg_basketba.png"); }
+	.i-active{-webkit-transform: rotate(90deg); margin-bottom: .3rem}
+	.switch-active{opacity: .5}
+
+
